@@ -1,7 +1,9 @@
-:root{
-  --backdrop: linear-gradient(to bottom, #fafaff, lemonchiffon);
-  --backdrop-reverse: linear-gradient(to bottom, , #fafaff);
+
+:root {
+  --backdrop: linear-gradient(to bottom, #fafaff, #d9e2e6);
+  --backdrop-reverse: linear-gradient(to bottom, #bae3fc, #fafaff);
 }
+
 .App {
   background-image: var(--backdrop);
   padding: 0;
