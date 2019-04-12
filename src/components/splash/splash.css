@@ -1,0 +1,41 @@
+:root{
+    --splash-color: #000005;
+    --splash-shadow: #f85b006b;
+    --splash-shadow-fn: 0 .1rem .15rem var(--splash-shadow);
+    --splash-font: 'Cinzel Decorative', cursive;
+    --splash-font-size: 8rem;
+    --splash-padding: 3.5rem;
+}
+
+.splash-main{
+    padding: 0;
+    margin:0;
+    min-height: auto;
+}
+
+.splash-chazing{
+
+}
+
+.splash-chazing_p{
+    font-family: var(--splash-font);
+    font-size: var(--splash-font-size);
+    padding-left: var(--splash-padding);
+    color: var(--splash-color);
+    text-shadow: var(--splash-shadow-fn);
+    user-select: none;
+}
+
+.splash-dreams{
+
+}
+
+.splash-dreams_p{
+    margin-top: -12rem;
+    font-family: var(--splash-font);
+    font-size: var(--splash-font-size);
+    padding-right: var(--splash-padding);
+    color: var(--splash-color);
+    text-shadow: var(--splash-shadow-fn);
+    user-select: none;
+}
