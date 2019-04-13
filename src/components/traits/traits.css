@@ -1,11 +1,72 @@
 
-.traits-main{
+.traits-main {
     padding: 0;
     margin: 0;
     min-height: 100vh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1ft, 2ft));
+    grid-template-rows: repeat(auto-fit, minmax(1ft, 1ft));
+    grid-gap: .5rem;
 }
 
-.traits-captions{
+.align-center {
+    align-self: center;
+    justify-self: center;
+}
+
+.traits-passion {
+    grid-column: 1/span 2;
+    grid-row: 1/ span 1;
     font-size: 5rem;
     font-family: 'Russo One', sans-serif;
+    text-shadow: 0 .1rem .15rem #ff14918a;
+}
+
+.traits-creativity {
+    grid-column: 3/ span 1;
+    grid-row: 1/ span 1;
+    font-size: 3rem;
+    font-family: 'Julius Sans One', sans-serif;
+    text-shadow: 0.1rem .1rem .5rem #ffa6008a;
+}
+
+.traits-grit {
+    grid-column: 4/ span 1;
+    grid-row: 1/span 1;
+    font-size: 5rem;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 .1rem .15rem #dc143c8a;
+}
+
+.traits-learnability {
+    grid-column: 3/ span 2;
+    grid-row: 2/span 1;
+    font-size: 4rem;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 0.1rem .1rem .5rem #ffd9008a;
+}
+
+.traits-adaptability {
+    grid-column: 1/ span 2;
+    grid-row: 2/span 1;
+    font-size: 4rem;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0 .1rem .15rem #927a5ad8;
+}
+
+.traits-leadership {
+    grid-column: 3/ span 2;
+    grid-row: 1/span 2;
+    font-size: 6rem;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 0 .1rem .15rem #8b00008a;
+}
+
+.traits-empathy {
+    grid-column: 1/ span 1;
+    grid-row: 1/span 2;
+    font-size: 5rem;
+    font-family: 'Cinzel', serif;
+    text-shadow: 0.1rem .1rem .75rem #00bfff8a;
 }

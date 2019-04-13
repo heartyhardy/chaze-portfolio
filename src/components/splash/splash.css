@@ -49,7 +49,7 @@
 .splash-dreams {
     position: relative;
     animation-name: flyRight;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
     animation-duration: 1.5s;
     animation-fill-mode: both;
     animation-timing-function: ease-in-out;
@@ -68,7 +68,7 @@
 .full-name {
     animation-name: fadeIn;
     opacity: 0;
-    animation-delay: 1.5s;
+    animation-delay: 1.75s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
