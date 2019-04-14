@@ -16,4 +16,4 @@ const Splash = props => (
     </Aux>
 )
 
-export default Splash
+export default React.memo(Splash)

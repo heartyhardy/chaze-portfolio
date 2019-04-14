@@ -17,7 +17,7 @@
 
 @keyframes creativity {
     0% {
-        top: -7.5rem;
+        top: -5.5rem;
         opacity: 0;
         color: goldenrod;
     }
@@ -82,7 +82,7 @@
 
 @keyframes learnability {
     0% {
-        bottom: -5.5rem;
+        bottom: -3.5rem;
         opacity: 0;
         color: gold;
     }
