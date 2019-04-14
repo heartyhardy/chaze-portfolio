@@ -1,3 +1,97 @@
+:root {
+    --base-color: #03000e;
+}
+
+@keyframes passion {
+    0% {
+        left: -7.5rem;
+        opacity: 0;
+        color: crimson;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+        color: var(--base-color)
+    }
+}
+
+@keyframes creativity {
+    0% {
+        top: -7.5rem;
+        opacity: 0;
+        color: goldenrod;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+        color: var(--base-color)
+    }
+}
+
+@keyframes grit {
+    0% {
+        right: -7.5rem;
+        opacity: 0;
+        color: darkred;
+    }
+    100% {
+        right: 0;
+        opacity: 1;
+        color: var(--base-color)
+    }
+}
+
+@keyframes empathy {
+    0% {
+        left: -7.5rem;
+        opacity: 0;
+        color: deepskyblue;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+        color: var(--base-color)
+    }
+}
+
+@keyframes leadership {
+    0% {
+        right: -7.5rem;
+        opacity: 0;
+        color: red;
+    }
+    100% {
+        right: 0;
+        opacity: 1;
+        color: var(--base-color)
+    }
+}
+
+@keyframes adaptability {
+    0% {
+        left: -7.5rem;
+        opacity: 0;
+        color: forestgreen;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+        color: var(--base-color)
+    }
+}
+
+@keyframes learnability {
+    0% {
+        bottom: -5.5rem;
+        opacity: 0;
+        color: gold;
+    }
+    100% {
+        bottom: 0;
+        opacity: 1;
+        color: var(--base-color)
+    }
+}
 
 .traits-main {
     padding: 0;
@@ -13,60 +107,75 @@
 .align-center {
     align-self: center;
     justify-self: center;
+    user-select: none;
 }
 
 .traits-passion {
+    position: relative;
     grid-column: 1/span 2;
     grid-row: 1/ span 1;
     font-size: 5rem;
     font-family: 'Russo One', sans-serif;
     text-shadow: 0 .1rem .15rem #ff14918a;
+    animation: passion .5s ease-out .25s 1 normal both paused;
 }
 
 .traits-creativity {
+    position: relative;
     grid-column: 3/ span 1;
     grid-row: 1/ span 1;
     font-size: 3rem;
     font-family: 'Julius Sans One', sans-serif;
     text-shadow: 0.1rem .1rem .5rem #ffa6008a;
+    animation: creativity .5s ease-out .5s 1 normal both paused;
 }
 
 .traits-grit {
+    position: relative;
     grid-column: 4/ span 1;
     grid-row: 1/span 1;
     font-size: 5rem;
     font-family: 'Oswald', sans-serif;
     text-shadow: 0 .1rem .15rem #dc143c8a;
-}
-
-.traits-learnability {
-    grid-column: 3/ span 2;
-    grid-row: 2/span 1;
-    font-size: 4rem;
-    font-family: 'Quicksand', sans-serif;
-    text-shadow: 0.1rem .1rem .5rem #ffd9008a;
-}
-
-.traits-adaptability {
-    grid-column: 1/ span 2;
-    grid-row: 2/span 1;
-    font-size: 4rem;
-    font-family: 'Pacifico', cursive;
-    text-shadow: 0 .1rem .15rem #927a5ad8;
-}
-
-.traits-leadership {
-    grid-column: 3/ span 2;
-    grid-row: 1/span 2;
-    font-size: 6rem;
-    font-family: 'Anton', sans-serif;
-    text-shadow: 0 .1rem .15rem #8b00008a;
+    animation: grit .5s ease-out .75s 1 normal both paused;
 }
 
 .traits-empathy {
+    position: relative;
     grid-column: 1/ span 1;
     grid-row: 1/span 2;
     font-size: 5rem;
     font-family: 'Cinzel', serif;
     text-shadow: 0.1rem .1rem .75rem #00bfff8a;
+    animation: empathy .5s ease-out 1s 1 normal both paused;
+}
+
+.traits-leadership {
+    position: relative;
+    grid-column: 3/ span 2;
+    grid-row: 1/span 2;
+    font-size: 6rem;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 0 .1rem .15rem #8b00008a;
+    animation: leadership .5s ease-out 1.25s 1 normal both paused;
+}
+
+.traits-adaptability {
+    position: relative;
+    grid-column: 1/ span 2;
+    grid-row: 2/span 1;
+    font-size: 4rem;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0 .1rem .15rem #927a5ad8;
+    animation: adaptability .5s ease-out 1.35s 1 normal both paused;
+}
+
+.traits-learnability {
+    position: relative;
+    grid-column: 3/ span 2;
+    grid-row: 2/span 1;
+    font-size: 4rem;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 0.1rem .1rem .5rem #ffd9008a;
+    animation: learnability .5s ease-out 1.45s 1 normal both paused;
 }

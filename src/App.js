@@ -6,10 +6,22 @@ import Splash from './components/splash/splash';
 import Traits from './components/traits/traits';
 
 const App = props => {
-  return(
+
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener('scroll', onAppScroll);
+    return (()=> window.removeEventListener('scroll', onAppScroll));
+  }, [])
+
+  const onAppScroll = (event) => {
+    setScrollY(window.scrollY);
+  }
+
+  return (
     <Aux styling="App">
       <Splash />
-      <Traits />
+      <Traits scrollPos={scrollY}/>
     </Aux>
   )
 }
