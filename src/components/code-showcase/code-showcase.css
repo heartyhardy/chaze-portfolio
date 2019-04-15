@@ -22,7 +22,7 @@
 .showcase-screenshots{
     grid-column: 2/span 2;
     min-width: 65vw;
-    background-color: mediumpurple;
+    background-color: skyblue;
 }
 
 .showcase-heading{
@@ -33,4 +33,10 @@
 .showcase-description{
     font-size: 1.3rem;
     font-family: 'Didact Gothic', sans-serif;
+}
+
+.showcase-technologies{
+    display: grid;
+    grid-template-columns: repeat(3, 7rem);
+    grid-gap: .5rem;
 }
