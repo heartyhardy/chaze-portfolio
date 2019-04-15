@@ -1,7 +1,5 @@
 
 .codeshowcase-main{
-    padding: 0;
-    margin: 0;
     min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(1ft, 2ft));
@@ -12,16 +10,29 @@
     grid-column: 1/span 1;
     display: flex;
     flex-direction: column;
-    max-width: 35vw;
-    padding: 1.5rem;
+    min-width: 30vw;
     justify-content: center;
     align-items: center;
     background-color: transparent;
 }
 
+.git-icon{
+    font-size: 3.5rem;
+    color: lightskyblue;
+    text-shadow: 0rem .1rem .5rem #5295d85d;
+    filter: blur(.075rem);
+    transition: all .5s linear;
+}
+.git-icon:hover{
+    font-size: 3.5rem;
+    color: dodgerblue;
+    filter: blur(.02rem);
+    transition: all .5s linear;
+}
+
 .showcase-screenshots{
     grid-column: 2/span 2;
-    min-width: 65vw;
+    min-width: 60vw;
     background-color: skyblue;
 }
 
@@ -33,6 +44,7 @@
 .showcase-description{
     font-size: 1.3rem;
     font-family: 'Didact Gothic', sans-serif;
+    padding: 2rem;
 }
 
 .showcase-technologies{

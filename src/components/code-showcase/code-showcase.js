@@ -8,11 +8,11 @@ const CodeShowcase = props => {
     return (
         <Aux styling="codeshowcase-main">
             <div className="showcase-details">
-                <p className="showcase-heading">Game of Ur</p>
-                <p className="showcase-description">Game of Ur is a board game based on gameboards found during the excavations carried out by an archaeologist called, Leonard Woolley, at the ancient Sumerian city of Ur,inside the royal tombs</p>
+                <p className="showcase-heading">{props.heading}</p>
+                <a href="#"><i class="fab fa-github git-icon"></i></a>
+                <p className="showcase-description">{props.description}</p>
                 <div className="showcase-technologies">
-                    <Chip text="C#" />
-                    <Chip text="Photoshop" />
+                    {props.techstack.map(tech => <Chip text={tech.name} />)}
                 </div>
             </div>
             <div className="showcase-screenshots">

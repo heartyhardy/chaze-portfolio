@@ -23,7 +23,7 @@ const App = props => {
     <Aux styling="App">
       <Splash />
       <Traits scrollPos={scrollY}/>
-      <CodeShowcase />
+      <CodeShowcase heading={"Game of Ur"} description={"Description"} techstack={[{name:"C#"}]}/>
     </Aux>
   )
 }

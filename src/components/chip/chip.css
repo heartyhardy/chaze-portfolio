@@ -21,4 +21,5 @@
     font-family: 'Teko', sans-serif;
     color: var(--chip-text);
     text-align: center;
+    user-select: none;
 }
