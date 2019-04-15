@@ -1,8 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
-import isInView from '../../util/isinview';
-
 import './traits.css';
 
+import isInView from '../../util/isinview';
 import Aux from '../hoc/Auxilary/Auxilary';
 
 const Traits = props => {

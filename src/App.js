@@ -4,6 +4,7 @@ import './App.css';
 import Aux from './components/hoc/Auxilary/Auxilary';
 import Splash from './components/splash/splash';
 import Traits from './components/traits/traits';
+import CodeShowcase from './components/code-showcase/code-showcase';
 
 const App = props => {
 
@@ -22,6 +23,7 @@ const App = props => {
     <Aux styling="App">
       <Splash />
       <Traits scrollPos={scrollY}/>
+      <CodeShowcase />
     </Aux>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react';
-import Aux from '../hoc/Auxilary/Auxilary';
 import './splash.css'
+
+import Aux from '../hoc/Auxilary/Auxilary';
 
 const Splash = props => (
     <Aux styling="splash-main">
