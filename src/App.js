@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import code_service from './service/code-service';
 
 import Aux from './components/hoc/Auxilary/Auxilary';
 import Splash from './components/splash/splash';
@@ -12,7 +13,7 @@ const App = props => {
 
   useEffect(() => {
     window.addEventListener('scroll', onAppScroll);
-    return (()=> window.removeEventListener('scroll', onAppScroll));
+    return (() => window.removeEventListener('scroll', onAppScroll));
   }, [])
 
   const onAppScroll = (event) => {
@@ -22,8 +23,20 @@ const App = props => {
   return (
     <Aux styling="App">
       <Splash />
-      <Traits scrollPos={scrollY}/>
-      <CodeShowcase heading={"Game of Ur"} description={"Description"} techstack={[{name:"C#"}]}/>
+      <Traits scrollPos={scrollY} />
+      {
+        // Populate Code showcases
+        code_service.fetch().map((service, index) => {
+          return <CodeShowcase
+            key={index}
+            heading={service.heading}
+            description={service.description}
+            git={service.git}
+            techstack={service.technologies}
+            screenshots={service.screenshots}
+          />
+        })
+      }
     </Aux>
   )
 }

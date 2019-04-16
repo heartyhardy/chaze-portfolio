@@ -9,10 +9,10 @@ const CodeShowcase = props => {
         <Aux styling="codeshowcase-main">
             <div className="showcase-details">
                 <p className="showcase-heading">{props.heading}</p>
-                <a href="#"><i class="fab fa-github git-icon"></i></a>
+                <a href={props.git}><i className="fab fa-github git-icon"></i></a>
                 <p className="showcase-description">{props.description}</p>
                 <div className="showcase-technologies">
-                    {props.techstack.map(tech => <Chip text={tech.name} />)}
+                    {props.techstack.map((tech, index) => <Chip key={index} text={tech} />)}
                 </div>
             </div>
             <div className="showcase-screenshots">
