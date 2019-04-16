@@ -1,3 +1,4 @@
+
 const code_showcase_data = [
     {
         id: "gameofur",
@@ -10,8 +11,8 @@ const code_showcase_data = [
         basepath: "C:\\",
         screenshots: [
             {
-                caption: "",
-                url: ""
+                caption: "Prince",
+                url: '/img/gourprev.gif'
             }
         ]
     }

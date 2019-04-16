@@ -33,7 +33,9 @@
 .showcase-screenshots{
     grid-column: 2/span 2;
     min-width: 60vw;
-    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .showcase-heading{
@@ -48,7 +50,9 @@
 }
 
 .showcase-technologies{
-    display: grid;
-    grid-template-columns: repeat(3, 7rem);
-    grid-gap: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }

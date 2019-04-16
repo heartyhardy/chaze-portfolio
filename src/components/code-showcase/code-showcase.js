@@ -3,6 +3,7 @@ import './code-showcase.css';
 
 import Aux from '../hoc/Auxilary/Auxilary';
 import Chip from '../chip/chip';
+import Screenshot from '../screenshot/screenshot';
 
 const CodeShowcase = props => {
     return (
@@ -12,11 +13,19 @@ const CodeShowcase = props => {
                 <a href={props.git}><i className="fab fa-github git-icon"></i></a>
                 <p className="showcase-description">{props.description}</p>
                 <div className="showcase-technologies">
-                    {props.techstack.map((tech, index) => <Chip key={index} text={tech} />)}
+                    {
+                        props.techstack.map((tech, index) =>
+                            <Chip key={index} text={tech} />
+                        )
+                    }
                 </div>
             </div>
             <div className="showcase-screenshots">
-                <p>Thumbs of screenshots</p>
+                {
+                    props.screenshots.map((screen, index) =>
+                        <Screenshot url={screen.url} caption={screen.caption}/>
+                    )
+                }
             </div>
         </Aux>
     )
