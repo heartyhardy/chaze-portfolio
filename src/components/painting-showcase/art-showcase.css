@@ -1,0 +1,7 @@
+.artshowcase-main{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(1ft, 2ft));
+    grid-template-columns: repeat(auto-fill, minmax(1ft, 2ft));
+    grid-gap: .5rem;
+}

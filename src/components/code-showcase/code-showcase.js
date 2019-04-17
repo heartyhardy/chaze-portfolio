@@ -23,7 +23,7 @@ const CodeShowcase = props => {
             <div className="showcase-screenshots">
                 {
                     props.screenshots.map((screen, index) =>
-                        <Screenshot url={screen.url} caption={screen.caption}/>
+                        <Screenshot key={index} url={screen.url} caption={screen.caption}/>
                     )
                 }
             </div>

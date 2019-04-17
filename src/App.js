@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+
 import code_service from './service/code-service';
 
 import Aux from './components/hoc/Auxilary/Auxilary';
 import Splash from './components/splash/splash';
 import Traits from './components/traits/traits';
 import CodeShowcase from './components/code-showcase/code-showcase';
+import ArtShowcase from './components/painting-showcase/art-showcase';
 
 const App = props => {
 
@@ -37,6 +39,7 @@ const App = props => {
           />
         })
       }
+      <ArtShowcase />
     </Aux>
   )
 }
