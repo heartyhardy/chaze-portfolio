@@ -11,8 +11,40 @@ const code_showcase_data = [
         basepath: "C:\\",
         screenshots: [
             {
-                caption: "Prince",
+                caption: "Game of Ur - Preview",
                 url: '/img/gourprev.gif'
+            }
+        ]
+    },
+    {
+        id: "cara",
+        heading: "CARA",
+        description: "Cara description",
+        git:"",
+        technologies: [
+            "Javascript", "React", "CSS"
+        ],
+        basepath: "C:\\",
+        screenshots: [
+            {
+                caption: "Cara - Preview",
+                url: '/img/caraprev.gif'
+            }
+        ]
+    },
+    {
+        id: "floatingemojis",
+        heading: "Flaoting Emojis",
+        description: "Floating emojis description",
+        git:"",
+        technologies: [
+            "Javascript", "React", "CSS"
+        ],
+        basepath: "C:\\",
+        screenshots: [
+            {
+                caption: "Cara - Preview",
+                url: '/img/caraprev.gif'
             }
         ]
     }
