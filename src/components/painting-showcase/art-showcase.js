@@ -26,7 +26,7 @@ const ArtShowcase = props => {
                         key={`quote${index}`}
                         quoteStyle={`${quote.class} quoteflags`}
                         quote={quote.quote}
-                        author={quote.author}
+                        author={`~${quote.author}`}
                     />
                 )
             }

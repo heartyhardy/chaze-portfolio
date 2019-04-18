@@ -74,6 +74,12 @@ const art_quotes_data =[
         quote: "Creativity is a drug I cannot live without.",
         author:"Cecil B. DeMille",
         class:"quote0"
+    },
+    {
+        id:1,
+        quote: "You can't wait for inspiration, you have to go after it with a club",
+        author:"Jack London",
+        class:"quote1"
     }
 ]
 
