@@ -5,3 +5,56 @@
     grid-template-columns: repeat(auto-fill, minmax(1ft, 2ft));
     grid-gap: .5rem;
 }
+
+.hero{
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
+    background-color: silver;
+    height: 256px;
+    width: 256px;
+    border: .75rem solid ivory;
+    border-radius: .25rem;
+}
+
+.quote{
+    font-size: 2rem;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+}
+
+.quote-author{
+    font-size: 1rem;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+.cellflags{
+    height: 256px;
+    width: 256px;
+    background-image: url("");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: .75rem solid snow;
+    box-shadow: 0 .1rem 1.5rem #03002546;
+    border-radius: .25rem;
+}
+
+.cell0{
+    grid-column: 1/ span 1;
+    grid-row: 1/ span 1;
+}
+
+.cell1-1{
+    grid-column: 2/ span 1;
+    grid-row: 1/ span 1;
+}
+
+.cell1-2{
+    grid-column: 3/ span 1;
+    grid-row: 1/ span 1;
+}
+
+.cell1-3{
+    grid-column: 4/ span 1;
+    grid-row: 1/ span 1;
+}

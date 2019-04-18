@@ -12,7 +12,7 @@ const code_showcase_data = [
         screenshots: [
             {
                 caption: "Game of Ur - Preview",
-                url: '/img/gourprev.gif'
+                url: '/img/code/gourprev.gif'
             }
         ]
     },

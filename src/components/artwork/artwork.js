@@ -4,8 +4,7 @@ import './artwork.css';
 const Artwork = props => (
     <div
         className={props.cellStyle}
-        caption={props.caption}
-        url={props.url}
+        style={{backgroundImage:`url(${props.url})`}}
     >
     </div>
 )
