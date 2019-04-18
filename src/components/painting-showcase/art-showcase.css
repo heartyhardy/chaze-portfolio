@@ -1,31 +1,26 @@
 .artshowcase-main{
     min-height: 100vh;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(1ft, 2ft));
-    grid-template-columns: repeat(auto-fill, minmax(1ft, 2ft));
-    grid-gap: .5rem;
+    grid-template-columns: repeat(auto-fill, minmax(1ft, 1ft));
+    grid-template-columns: repeat(auto-fill, minmax(1ft, 1ft));
+    grid-gap: 0.5rem;
 }
 
-.hero{
-    grid-column: 2/span 1;
-    grid-row: 2/span 1;
-    background-color: silver;
+.quoteflags{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 256px;
     width: 256px;
+    background-color: silver;
     border: .75rem solid ivory;
     border-radius: .25rem;
 }
 
-.quote{
-    font-size: 2rem;
-    font-family: 'Julius Sans One', sans-serif;
-    text-align: center;
-}
-
-.quote-author{
-    font-size: 1rem;
-    font-family: 'Cinzel', serif;
-    text-align: center;
+.quote0{
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
 }
 
 .cellflags{
@@ -39,11 +34,13 @@
     border-radius: .25rem;
 }
 
+/* The path */
 .cell0{
     grid-column: 1/ span 1;
     grid-row: 1/ span 1;
 }
 
+/* An ocean between us */
 .cell1-1{
     grid-column: 2/ span 1;
     grid-row: 1/ span 1;
@@ -57,4 +54,39 @@
 .cell1-3{
     grid-column: 4/ span 1;
     grid-row: 1/ span 1;
+}
+
+/* The storm */
+.cell2{
+    grid-column: 1/ span 1;
+    grid-row: 2/ span 1;
+}
+
+/* Christmas pleas */
+.cell3-1{
+    grid-column: 3/ span 1;
+    grid-row: 2/ span 1;
+    background-size: 100%;
+}
+
+.cell3-2{
+    grid-column: 4/ span 1;
+    grid-row: 2/ span 1;
+    background-size: 100%;
+}
+
+/* Live free, die well */
+.cell4-1{
+    grid-column: 1/ span 1;
+    grid-row: 3/ span 1;
+}
+
+.cell4-2{
+    grid-column: 2/ span 1;
+    grid-row: 3/ span 1;
+}
+
+.cell4-3{
+    grid-column: 3/ span 1;
+    grid-row: 3/ span 1;
 }

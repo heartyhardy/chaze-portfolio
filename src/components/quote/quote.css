@@ -1,0 +1,11 @@
+.quote{
+    font-size: 2rem;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+}
+
+.quote-author{
+    font-size: 1rem;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}

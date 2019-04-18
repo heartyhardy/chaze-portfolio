@@ -5,6 +5,7 @@ import art_service from '../../service/art-service';
 
 import Aux from '../hoc/Auxilary/Auxilary';
 import Artwork from '../artwork/artwork';
+import Quote from '../quote/quote';
 
 const ArtShowcase = props => {
     return(
@@ -12,17 +13,23 @@ const ArtShowcase = props => {
             {
                 art_service.fetch().map((art, index) => 
                     <Artwork
-                        key={index}
+                        key={`art${index}`}
                         cellStyle={`${art.class} cellflags`}
                         caption={art.caption}
                         url={art.url}
                     />
                 )
             }
-            <div className="hero">
-                <p className="quote">Creativity is contagious.<br></br>Pass it on.</p>
-                <p className="quote-author"> -Albert Einstien</p>
-            </div>
+            {
+                art_service.fetchQuotes().map((quote, index) =>
+                    <Quote
+                        key={`quote${index}`}
+                        quoteStyle={`${quote.class} quoteflags`}
+                        quote={quote.quote}
+                        author={quote.author}
+                    />
+                )
+            }
         </Aux>
     )
 }
