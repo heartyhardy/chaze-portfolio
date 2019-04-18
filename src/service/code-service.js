@@ -3,7 +3,7 @@ const code_showcase_data = [
     {
         id: "gameofur",
         heading: "Game of Ur",
-        description: "Gme of Ur description",
+        description: "Game of Ur is a board game based on gameboards found during the excavations carried out by an archaeologist called, Leonard Woolley, at the ancient Sumerian city of Ur,inside the royal tombs(The royal game of Ur, 1928)",
         git:"",
         technologies: [
             "C#", "Photoshop"
