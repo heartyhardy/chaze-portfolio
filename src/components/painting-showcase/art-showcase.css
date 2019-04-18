@@ -13,7 +13,7 @@
     align-items: center;
     height: 256px;
     width: 256px;
-    background-color: silver;
+    background-image: linear-gradient(to bottom, lavender, papayawhip);
     border: .75rem solid ivory;
     border-radius: .25rem;
 }
@@ -26,6 +26,30 @@
 .quote1{
     grid-column: 4/span 1;
     grid-row: 3/span 1;
+}
+
+.quote2{
+    grid-column: 1/span 1;
+    grid-row: 4/span 2;
+    width: 256px;
+    height: calc(512px + 2rem);
+}
+
+.quote3{
+    grid-column: 3/span 2;
+    grid-row: 6/span 2;
+    width: calc(512px + 2rem);
+    height: calc(512px + 2rem);
+}
+
+.quote4{
+    grid-column: 4/span 1;
+    grid-row: 8/span 1;
+}
+
+.quote5{
+    grid-column: 1/span 1;
+    grid-row: 9/span 1;
 }
 
 .cellflags{
@@ -94,4 +118,78 @@
 .cell4-3{
     grid-column: 3/ span 1;
     grid-row: 3/ span 1;
+}
+
+/* Heart of courge */
+.cell5-1{
+    grid-column: 2/ span 1;
+    grid-row: 4/ span 1;
+}
+
+.cell5-2{
+    grid-column: 3/ span 1;
+    grid-row: 4/ span 1;
+}
+
+.cell5-3{
+    grid-column: 4/ span 1;
+    grid-row: 4/ span 1;
+}
+
+/* Champaign in my lungs */
+.cell6-1{
+    grid-column: 2/ span 1;
+    grid-row: 5/ span 1;
+}
+
+.cell6-2{
+    grid-column: 3/ span 1;
+    grid-row: 5/ span 1;
+}
+
+.cell-6-3{
+    grid-column: 4/ span 1;
+    grid-row: 5/ span 1;
+}
+
+/* Black forest */
+.cell7{
+    grid-column: 1/span 2;
+    grid-row: 6/ span 2;
+    width: calc(512px + 2rem);
+    height: calc(512px + 2rem);
+    background-attachment: fixed;
+    background-size: 701px 922.8px;
+}
+
+/* Mystic lands */
+.cell8-1{
+    grid-column: 1/span 1;
+    grid-row: 8/ span 1;
+}
+
+.cell8-2{
+    grid-column: 2/span 1;
+    grid-row: 8/ span 1;
+}
+
+.cell8-3{
+    grid-column: 3/span 1;
+    grid-row: 8/ span 1;
+}
+
+/* A Charmed life */
+.cell9-1{
+    grid-column: 2/span 1;
+    grid-row: 9/ span 1;
+}
+
+.cell9-2{
+    grid-column: 3/span 1;
+    grid-row: 9/ span 1;
+}
+
+.cell9-3{
+    grid-column: 4/span 1;
+    grid-row: 9/ span 1;
 }

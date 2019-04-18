@@ -5,15 +5,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #dcdcdc42;
+    background-image: linear-gradient(to bottom, lavender, powderblue);
     border-radius: .5rem .2rem 1rem .2rem;
     box-shadow: 0 .01rem 1rem #0049794b;;
     padding: 1rem .9rem 1rem .9rem;
 }
 
 .thumb{
-    width:90%;
-    height: 90%;
+    width:95%;
+    height: 95%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
