@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(1ft, 2ft));
     grid-gap: 0;
+    border-top: .2rem solid lavender;
 }
 
 .showcase-details{
@@ -46,7 +47,7 @@
 
 .showcase-description{
     max-width: 25vw;
-    font-size: 1.3rem;
+    font-size: 1.1srem;
     font-family: 'Didact Gothic', sans-serif;
     padding: 2rem;
     text-align: justify;

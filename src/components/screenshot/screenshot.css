@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to bottom, lavender, powderblue);
-    border-radius: .5rem .2rem 1rem .2rem;
+    border-radius: 1.5rem .2rem 2rem .2rem;
     box-shadow: 0 .01rem 1rem #0049794b;;
     padding: 1rem .9rem 1rem .9rem;
 }
