@@ -14,6 +14,9 @@ const Splash = props => (
         <div className="full-name">
             <p className="full-name_p">Charith Rathnayake</p>
         </div>
+        <div className="scroll-bait">
+            <p className="scroll-bait_p"><i class="fas fa-angle-double-down"></i></p>
+        </div>
     </Aux>
 )
 

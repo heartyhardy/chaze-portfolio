@@ -101,6 +101,25 @@
     }
 }
 
+@keyframes scrollDown {
+    0% {
+        color: paleturquoise;
+        opacity: 1;
+        top: 0
+    }
+    50% {
+        color: deepskyblue;
+        opacity: 0.5;
+        filter: blur(5px);
+        top: 1rem
+    }
+    100% {
+        color: paleturquoise;
+        opacity: 1;
+        top: 0
+    }
+}
+
 :root {
     --splash-color: #0a061a;
     --splash-shadow: #08a3fda1;
@@ -159,4 +178,16 @@
     color: #fcfcfc;
     text-shadow: .1rem .1rem .75rem #00597c6c;
     user-select: none;
+}
+
+.scroll-bait {
+    margin-top: 3rem;
+    position: relative;
+    animation: scrollDown 2.5s ease-in-out .5s infinite normal both;
+}
+
+.scroll-bait_p {
+    font-size: 2.5rem;
+    text-align: center;
+    color: paleturquoise;
 }
