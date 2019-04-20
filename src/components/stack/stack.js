@@ -1,22 +1,16 @@
 import React from 'react';
 import './stack.css';
 
-const getFontFamily = (font) => {
-    switch(font){
-        case "CODE":
-            return "'Oswald', sans-serif";
-        case "DESIGN":
-            return "'Cinzel Decorative', cursive";
-        default:
-            return;
-    }
-}
-
 const Stack = props => (
     <div className="stack-main">
         <p
+            className="stack-icon"
+        >
+            <i class={props.faIcon}></i>
+        </p>
+        <p
             className="stack-heading"
-            style={{fontFamily:getFontFamily(props.font)}}
+            style={{ fontFamily: props.font }}
         >
             {`${props.heading.toString().toUpperCase()}`}
         </p>

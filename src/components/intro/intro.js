@@ -11,6 +11,7 @@ const Intro = props => (
             stack_service.fetch().map((stack, index) =>
                 <Stack
                     key={`stack${index}`}
+                    faIcon={stack.icon}
                     font={stack.font}
                     heading={stack.heading}
                     description={stack.description}

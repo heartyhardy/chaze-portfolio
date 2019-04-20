@@ -5,12 +5,21 @@
     align-items: center;
     min-width: 256px;
     min-height: 256px;
+    max-height: 350px;
     padding: 1rem;
     margin: 2rem;
     background-image: linear-gradient(to bottom, #b0e0e625, #20b2ab05);
     border-radius: 1rem .2rem .5rem .1rem;
     border-top: .5rem solid #fcfcfc;
     box-shadow: 0 .1rem 2rem #00597c11;
+}
+
+.stack-icon{
+    color: #87cefa52;
+    font-size: 3rem;
+    padding: 1rem 0 0 0;
+    margin: 0;
+    user-select: none;
 }
 
 .stack-heading{
