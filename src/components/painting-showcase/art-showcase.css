@@ -53,15 +53,8 @@
 }
 
 .quote6{
-    grid-column: 1/span 4;
-    grid-row: 10/span 2;
-    width: calc(1024px + 6rem);
-    height: calc(512px + 2rem);
-}
-
-.quote7{
     grid-column: 4/span 1;
-    grid-row: 12/span 1;
+    grid-row: 10/span 1;
 }
 
 .cellflags{
@@ -210,15 +203,15 @@
 
 .cell10-1{
     grid-column: 1/ span 1;
-    grid-row: 12/span 1;
+    grid-row: 10/span 1;
 }
 
 .cell10-2{
     grid-column: 2/ span 1;
-    grid-row: 12/span 1;
+    grid-row: 10/span 1;
 }
 
 .cell10-3{
     grid-column: 3/ span 1;
-    grid-row: 12/span 1;
+    grid-row: 10/span 1;
 }

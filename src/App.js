@@ -8,6 +8,7 @@ import Splash from './components/splash/splash';
 import Traits from './components/traits/traits';
 import CodeShowcase from './components/code-showcase/code-showcase';
 import ArtShowcase from './components/painting-showcase/art-showcase';
+import Intro from './components/intro/intro';
 
 const App = props => {
 
@@ -25,6 +26,7 @@ const App = props => {
   return (
     <Aux styling="App">
       <Splash />
+      <Intro />
       <Traits scrollPos={scrollY} />
       {
         // Populate Code showcases

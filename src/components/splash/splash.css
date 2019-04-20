@@ -110,7 +110,7 @@
     50% {
         color: deepskyblue;
         opacity: 0.5;
-        filter: blur(5px);
+        filter: blur(3px);
         top: 1rem
     }
     100% {

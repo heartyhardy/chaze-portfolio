@@ -1,0 +1,27 @@
+.stack-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 256px;
+    min-height: 256px;
+    padding: 1rem;
+    margin: 2rem;
+    background-image: linear-gradient(to bottom, #b0e0e625, #20b2ab05);
+    border-radius: 1rem .2rem .5rem .1rem;
+    border-top: .5rem solid #fcfcfc;
+    box-shadow: 0 .1rem 2rem #00597c11;
+}
+
+.stack-heading{
+    font-size: 3rem;
+    color: #010116;
+    user-select: none;
+}
+
+.stack-description{
+    font-size: 1rem;
+    font-family: 'Didact Gothic', sans-serif;
+    max-width: calc( 256px - 2rem);
+    user-select: none;
+}
