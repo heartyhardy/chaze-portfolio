@@ -8,7 +8,7 @@ const stack_service_data = [
     {
         heading: "Art",
         description: "Painting and designing is a second nature to me. After playing the game called Prince of Persia by Jordan Mechner. I was passionate about creating artworks.",
-        font: "'Cinzel Decorative', cursive",
+        font: "'Fredericka the Great', cursive",
         icon:"fas fa-paint-brush"
     },
     {
