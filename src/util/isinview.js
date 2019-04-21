@@ -11,7 +11,8 @@ const isInView = (htmlElement, hook) => {
     ) {
         hook(true);
     } else {
-        hook(false);
+        //If prev state is true, keep the state unchanged
+        hook(prev => !prev ? false : true);
     }
 }
 

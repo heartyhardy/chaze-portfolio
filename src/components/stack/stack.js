@@ -6,7 +6,7 @@ const Stack = props => (
         <p
             className="stack-icon"
         >
-            <i class={props.faIcon}></i>
+            <i className={props.faIcon}></i>
         </p>
         <p
             className="stack-heading"

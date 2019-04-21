@@ -9,6 +9,8 @@ import Traits from './components/traits/traits';
 import CodeShowcase from './components/code-showcase/code-showcase';
 import ArtShowcase from './components/painting-showcase/art-showcase';
 import Intro from './components/intro/intro';
+import CodeCutscene from './components/code-cutscene/code-cutscene';
+import ArtCutscene from './components/art-cutscene/art-cutscene';
 
 const App = props => {
 
@@ -28,6 +30,7 @@ const App = props => {
       <Splash />
       <Intro />
       <Traits scrollPos={scrollY} />
+      <CodeCutscene scrollPos={scrollY} />
       {
         // Populate Code showcases
         code_service.fetch().map((service, index) => {
@@ -41,6 +44,7 @@ const App = props => {
           />
         })
       }
+      <ArtCutscene scrollPos={scrollY}/>
       <ArtShowcase />
     </Aux>
   )

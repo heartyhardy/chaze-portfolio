@@ -1,0 +1,43 @@
+:root {
+    --art-splash-color: #0a061a;
+    --art-splash-shadow: #08a3fda1;
+    --art-splash-shadow-fn: 0 .1rem .15rem var(--art-splash-shadow);
+    --art-splash-font: 'Cinzel Decorative', cursive;
+    --art-splash-font-size: 8rem;
+    --art-splash-padding: 3.5rem;
+}
+
+.art-cutscene-main{
+    padding: 0;
+    margin: 5rem 0 5rem 0;
+    min-height: 100vh;
+}
+
+.art-cutscene-chazing {
+    position: relative;
+    animation: flyLeft 1.5s ease-in-out 1s 1 normal both, floatSlightly 2.75s ease-in-out 3s infinite normal forwards;
+}
+
+.art-cutscene-chazing_p {
+    font-family: var(--art-splash-font);
+    font-size: var(--art-splash-font-size);
+    padding-left: var(--art-splash-padding);
+    color: var(--art-splash-color);
+    text-shadow: var(--art-splash-shadow-fn);
+    user-select: none;
+}
+
+.art-cutscene-dreams {
+    position: relative;
+    animation: flyRight 1.5s ease-in-out 1s 1 normal both, floatSlightly-reverse 2.5s ease-in-out 2.5s infinite normal forwards;
+}
+
+.art-cutscene-dreams_p {
+    margin-top: -12rem;
+    font-family: var(--art-splash-font);
+    font-size: var(--art-splash-font-size);
+    padding-right: var(--art-splash-padding);
+    color: var(--art-splash-color);
+    text-shadow: var(--art-splash-shadow-fn);
+    user-select: none;
+}
