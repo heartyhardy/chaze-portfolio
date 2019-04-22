@@ -11,6 +11,7 @@ import ArtShowcase from './components/painting-showcase/art-showcase';
 import Intro from './components/intro/intro';
 import CodeCutscene from './components/code-cutscene/code-cutscene';
 import ArtCutscene from './components/art-cutscene/art-cutscene';
+import Outro from './components/outro/outro';
 
 const App = props => {
 
@@ -46,6 +47,7 @@ const App = props => {
       }
       <ArtCutscene scrollPos={scrollY}/>
       <ArtShowcase />
+      <Outro />
     </Aux>
   )
 }

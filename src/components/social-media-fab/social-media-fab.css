@@ -1,0 +1,22 @@
+.media-fab-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 128px;
+    min-height: 128px;
+    margin: 0 2rem 0 2rem;
+    font-size: 3.0rem;
+    background-image: linear-gradient(to bottom, #20b2ab5d, #b0e0e63b);
+    color: snow;
+    text-shadow: 0rem .1rem .5rem #5295d85d;
+    border-radius: 50%;
+    border-top: .15rem solid #fcfcfc;
+    border-bottom: .05rem solid #afeeeeb2;
+    box-shadow: 0 .1rem 1rem #40e0d065
+}
+
+.social-media-link{
+    text-decoration: none;
+    color: snow;
+}
