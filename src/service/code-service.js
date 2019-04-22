@@ -19,7 +19,7 @@ const code_showcase_data = [
     {
         id: "cara",
         heading: "CARA",
-        description: "Cara description",
+        description: "Cara is a simple face detection application made in React and clarifai api.",
         git:"",
         technologies: [
             "Javascript", "React", "CSS"
@@ -28,7 +28,7 @@ const code_showcase_data = [
         screenshots: [
             {
                 caption: "Cara - Preview",
-                url: '/img/caraprev.gif'
+                url: '/img/code/caraprev.gif'
             }
         ]
     },
