@@ -5,9 +5,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, lavender, powderblue);
-    border-radius: 1.5rem .2rem 2rem .2rem;
-    box-shadow: 0 .01rem 1rem #0049794b;;
+    background-image: linear-gradient(to bottom, #b0e0e625, #20b2ab05);
+    border-radius: 1rem .2rem .5rem .1rem;
+    border-top: .25rem solid #fcfcfc;
+    box-shadow: 0 .1rem 1.5rem #40e0d046;
     padding: 1rem .9rem 1rem .9rem;
 }
 
@@ -18,6 +19,6 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: .5rem .2rem 1rem .2rem;
-    border: .3rem solid azure;    
+    border: .2rem solid #e8f6fa;
     filter: grayscale(.45);
 }

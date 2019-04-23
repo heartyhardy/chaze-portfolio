@@ -28,7 +28,7 @@ const code_showcase_data = [
         screenshots: [
             {
                 caption: "Cara - Preview",
-                url: '/img/code/caraprev.gif'
+                url: '/img/code/caraprev1.gif'
             }
         ]
     },
@@ -43,8 +43,8 @@ const code_showcase_data = [
         basepath: "C:\\",
         screenshots: [
             {
-                caption: "Cara - Preview",
-                url: '/img/caraprev.gif'
+                caption: "Floating emojis",
+                url: '/img/code/feprev.gif'
             }
         ]
     }

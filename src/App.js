@@ -29,7 +29,7 @@ const App = props => {
   return (
     <Aux styling="App">
       <Splash />
-      <Intro />
+      <Intro scrollPos={scrollY} />
       <Traits scrollPos={scrollY} />
       <CodeCutscene scrollPos={scrollY} />
       {
