@@ -1,3 +1,8 @@
+@keyframes flyInFromBottom{
+    0% {top: 5rem ; opacity: 0; border-top-width: 0; filter:blur(2px);}
+    100% {top: 0 ; opacity: 1; border-top-width: .5rem; filter: blur(0px);}
+}
+
 .outro-main{
     padding: 0;
     margin: 10rem 0 0 0;
@@ -13,10 +18,12 @@
 }
 
 .outro-inner{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    animation: flyInFromBottom 1s ease-in-out .1s 1 normal both running;
 }
 
 .outro-connect{

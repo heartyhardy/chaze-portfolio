@@ -47,7 +47,7 @@ const App = props => {
       }
       <ArtCutscene scrollPos={scrollY}/>
       <ArtShowcase />
-      <Outro />
+      <Outro scrollPos={scrollY} />
     </Aux>
   )
 }

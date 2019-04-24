@@ -1,4 +1,4 @@
-@keyframes flyInFromBottom{
+@keyframes flyInFromTop{
     0% {top: -5rem ; opacity: 0; border-top-width: 0; filter:blur(2px);}
     100% {top: 0 ; opacity: 1; border-top-width: .5rem; filter: blur(0px);}
 }
@@ -18,7 +18,7 @@
     border-radius: 1rem .2rem .5rem .1rem;
     border-top: .5rem solid #fcfcfc;
     box-shadow: 0 .1rem 2rem #00597c11;
-    animation: flyInFromBottom 2s ease-in-out .5s 1 normal both running;
+    animation: flyInFromTop 2s ease-in-out .5s 1 normal both running;
 }
 
 .stack-icon{
