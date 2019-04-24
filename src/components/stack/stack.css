@@ -18,7 +18,7 @@
     border-radius: 1rem .2rem .5rem .1rem;
     border-top: .5rem solid #fcfcfc;
     box-shadow: 0 .1rem 2rem #00597c11;
-    animation: flyInFromTop 2s ease-in-out .5s 1 normal both running;
+    animation: flyInFromBottom 2s ease-in-out .5s 1 normal both running;
 }
 
 .stack-icon{
