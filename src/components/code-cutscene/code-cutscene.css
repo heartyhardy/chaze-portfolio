@@ -15,7 +15,7 @@
 
 :root {
     --code-splash-color: #0a061a;
-    --code-splash-shadow: #40e0d065;
+    --code-splash-shadow: #40e0d086;
     --code-splash-shadow-fn: 0 .1rem 1rem var(--code-splash-shadow);
     --code-splash-font: 'Julius Sans One', sans-serif;
     --code-splash-font-size: 8rem;

@@ -12,7 +12,7 @@ const code_showcase_data = [
         screenshots: [
             {
                 caption: "Game of Ur - Preview",
-                url: '/img/code/gourprev.gif'
+                url: 'img/code/gourprev.gif'
             }
         ]
     },
@@ -28,7 +28,7 @@ const code_showcase_data = [
         screenshots: [
             {
                 caption: "Cara - Preview",
-                url: '/img/code/caraprev1.gif'
+                url: 'img/code/caraprev1.gif'
             }
         ]
     },
@@ -44,7 +44,7 @@ const code_showcase_data = [
         screenshots: [
             {
                 caption: "Floating emojis",
-                url: '/img/code/feprev.gif'
+                url: 'img/code/feprev.gif'
             }
         ]
     }
