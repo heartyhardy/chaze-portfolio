@@ -64,19 +64,19 @@ const art_service_data = [
         id:10,
         caption: "Live free, die well",
         class:"cell4-3",
-        url:"/img/art/lfdw-3.jpg",
+        url:"img/art/lfdw-3.jpg",
     },
     {
         id:11,
         caption: "Heart of courage",
         class:"cell5-1",
-        url:"/img/art/hoc-1.jpg",
+        url:"img/art/hoc-1.jpg",
     },
     {
         id:12,
         caption: "Heart of courage",
         class:"cell5-2",
-        url:"/img/art/hoc-2.jpg",
+        url:"img/art/hoc-2.jpg",
     },
     {
         id:13,
