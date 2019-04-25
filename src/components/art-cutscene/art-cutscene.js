@@ -26,18 +26,12 @@ const ArtCutscene = props => {
             <hr ref={elCodeCut} style={{ opacity: 0 }} />
 
             <div
-             className="art-cutscene-chazing"
+             className="art-cutscene-artwork"
              style={{ animationPlayState: runCutScene ? running : paused }}
              >
-                <p className="art-cutscene-chazing_p">CHAZING</p>
+                <p className="art-cutscene-artwork_p">Art</p>
             </div>
 
-            <div
-             className="art-cutscene-dreams"
-             style={{ animationPlayState: runCutScene ? running : paused }}
-             >
-                <p className="art-cutscene-dreams_p">DRAWS</p>
-            </div>
         </Aux>
     )
 }

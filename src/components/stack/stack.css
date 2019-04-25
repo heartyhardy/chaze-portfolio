@@ -30,6 +30,7 @@
 }
 
 .stack-heading{
+    font-family: var(--base-font);
     font-size: 3rem;
     color: #010116;
     user-select: none;

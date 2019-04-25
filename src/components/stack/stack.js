@@ -25,7 +25,6 @@ const Stack = props => {
             </p>
             <p
                 className="stack-heading"
-                style={{ fontFamily: props.font }}
             >
                 {`${props.heading.toString().toUpperCase()}`}
             </p>

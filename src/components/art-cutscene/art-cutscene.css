@@ -1,8 +1,8 @@
 :root {
     --art-splash-color: #0a061a;
-    --art-splash-shadow: #08a3fda1;
-    --art-splash-shadow-fn: 0 .1rem .15rem var(--art-splash-shadow);
-    --art-splash-font: 'Fredericka the Great', cursive;
+    --art-splash-shadow: #40e0d086;
+    --art-splash-shadow-fn: 0 .1rem 1rem var(--art-splash-shadow);
+    --art-splash-font: 'Julius Sans One', sans-serif;
     --art-splash-font-size: 8rem;
     --art-splash-padding: 3.5rem;
 }
@@ -13,30 +13,15 @@
     min-height: 100vh;
 }
 
-.art-cutscene-chazing {
+.art-cutscene-artwork {
     position: relative;
-    animation: flyLeft 1.5s ease-in-out 1s 1 normal both, floatSlightly 2.75s ease-in-out 3s infinite normal forwards;
+    animation: floatSlightlyNoBlur 2.75s ease-in-out 3s infinite normal forwards;
 }
 
-.art-cutscene-chazing_p {
+.art-cutscene-artwork_p {
     font-family: var(--art-splash-font);
     font-size: var(--art-splash-font-size);
     padding-left: var(--art-splash-padding);
-    color: var(--art-splash-color);
-    text-shadow: var(--art-splash-shadow-fn);
-    user-select: none;
-}
-
-.art-cutscene-dreams {
-    position: relative;
-    animation: flyRight 1.5s ease-in-out 1s 1 normal both, floatSlightly-reverse 2.5s ease-in-out 2.5s infinite normal forwards;
-}
-
-.art-cutscene-dreams_p {
-    margin-top: -12rem;
-    font-family: var(--art-splash-font);
-    font-size: var(--art-splash-font-size);
-    padding-right: var(--art-splash-padding);
     color: var(--art-splash-color);
     text-shadow: var(--art-splash-shadow-fn);
     user-select: none;

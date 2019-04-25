@@ -26,18 +26,12 @@ const CodeCutscene = props => {
             <hr ref={elCodeCut} style={{opacity:0}}/>
 
             <div
-                className="code-cutscene-chazing"
+                className="code-cutscene-projects"
                 style={{ animationPlayState: runCutScene ? running : paused }}
             >
-                <p className="code-cutscene-chazing_p">{`< CHAZING`}</p>
+                <p className="code-cutscene-projects_p">Projects</p>
             </div>
 
-            <div
-                className="code-cutscene-dreams"
-                style={{animationPlayState: runCutScene ? running : paused}}
-            >
-                <p className="code-cutscene-dreams_p">{`CODES />`}</p>
-            </div>
         </Aux>
     )
 }
