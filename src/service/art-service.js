@@ -3,7 +3,7 @@ const art_service_data = [
     {
         id:0,
         caption: "The path",
-        class:"cell0",
+        class:"cell14",
         url:"img/art/thepath.jpg",
     },
     {
@@ -161,6 +161,18 @@ const art_service_data = [
         caption: "Chasing horizons",
         class:"cell10-3",
         url:"img/art/ch-3.jpg",
+    },
+    {
+        id:27,
+        caption: "Lord dominator",
+        class: "cell11",
+        url:"img/art/ld.jpg"
+    },
+    {
+        id:28,
+        caption: "Fireflies",
+        class: "cell12",
+        url:"img/art/stars.jpg"
     },
 ]
 

@@ -5,7 +5,7 @@ import art_service from '../../service/art-service';
 
 import Aux from '../hoc/Auxilary/Auxilary';
 import Artwork from '../artwork/artwork';
-import Quote from '../quote/quote';
+// import Quote from '../quote/quote';
 
 const ArtShowcase = props => {
     return(
@@ -20,7 +20,7 @@ const ArtShowcase = props => {
                     />
                 )
             }
-            {
+            {/* {
                 art_service.fetchQuotes().map((quote, index) =>
                     <Quote
                         key={`quote${index}`}
@@ -29,7 +29,7 @@ const ArtShowcase = props => {
                         author={`~${quote.author}`}
                     />
                 )
-            }
+            } */}
         </Aux>
     )
 }
