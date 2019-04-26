@@ -122,11 +122,11 @@
 
 :root {
     --splash-color: #0a061a;
-    --splash-shadow: #08a3fda1;
+    --splash-shadow: #40e0d08c;
     --splash-shadow-fn: 0 .1rem .15rem var(--splash-shadow);
-    --splash-font: 'Cinzel Decorative', cursive;
+    --splash-font: 'Poiret One', cursive;
     --splash-font-size: 8rem;
-    --splash-padding: 3.5rem;
+    --splash-padding: 0;
 }
 
 .splash-main {
@@ -155,7 +155,7 @@
 }
 
 .splash-dreams_p {
-    margin-top: -12rem;
+    margin-top: -11rem;
     font-family: var(--splash-font);
     font-size: var(--splash-font-size);
     padding-right: var(--splash-padding);
@@ -170,18 +170,17 @@
 }
 
 .full-name_p {
-    font-family: 'Unica One', cursive;
-    font-size: 2.5rem;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2.3rem;
     letter-spacing: .7rem;
-    margin-top: -9.5rem;
-    padding-left: 1rem;
-    color: #fcfcfc;
-    text-shadow: .1rem .1rem .75rem #00597c6c;
+    margin-top: -9rem;
+    padding-left: .35rem;
+    color: #006a8a91;
     user-select: none;
 }
 
 .scroll-bait {
-    margin-top: 3rem;
+    margin-top: 4rem;
     position: relative;
     animation: scrollDown 2.5s ease-in-out .5s infinite normal both;
 }
