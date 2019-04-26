@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/chaze-portfolio/precache-manifest.9932891ab7a8d3fc5046dd3f24ca527d.js"
+  "/chaze-portfolio/precache-manifest.d0fe2efe2155436acbdaa83673a42aa0.js"
 );
 
 workbox.clientsClaim();

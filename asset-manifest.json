@@ -1,13 +1,13 @@
 {
-  "main.css": "/chaze-portfolio/static/css/main.74f2eb18.chunk.css",
-  "main.js": "/chaze-portfolio/static/js/main.d6d1ce6f.chunk.js",
-  "main.js.map": "/chaze-portfolio/static/js/main.d6d1ce6f.chunk.js.map",
+  "main.css": "/chaze-portfolio/static/css/main.49cabe84.chunk.css",
+  "main.js": "/chaze-portfolio/static/js/main.239a2920.chunk.js",
+  "main.js.map": "/chaze-portfolio/static/js/main.239a2920.chunk.js.map",
   "runtime~main.js": "/chaze-portfolio/static/js/runtime~main.04fe7daa.js",
   "runtime~main.js.map": "/chaze-portfolio/static/js/runtime~main.04fe7daa.js.map",
   "static/js/2.44908718.chunk.js": "/chaze-portfolio/static/js/2.44908718.chunk.js",
   "static/js/2.44908718.chunk.js.map": "/chaze-portfolio/static/js/2.44908718.chunk.js.map",
   "index.html": "/chaze-portfolio/index.html",
-  "precache-manifest.9932891ab7a8d3fc5046dd3f24ca527d.js": "/chaze-portfolio/precache-manifest.9932891ab7a8d3fc5046dd3f24ca527d.js",
+  "precache-manifest.d0fe2efe2155436acbdaa83673a42aa0.js": "/chaze-portfolio/precache-manifest.d0fe2efe2155436acbdaa83673a42aa0.js",
   "service-worker.js": "/chaze-portfolio/service-worker.js",
-  "static/css/main.74f2eb18.chunk.css.map": "/chaze-portfolio/static/css/main.74f2eb18.chunk.css.map"
+  "static/css/main.49cabe84.chunk.css.map": "/chaze-portfolio/static/css/main.49cabe84.chunk.css.map"
 }
