@@ -181,3 +181,195 @@
     text-shadow: var(--base-shadow);
     animation: learnability .5s ease-out 1.45s 1 normal both paused;
 }
+
+@media only screen and (max-width: 1024px) {
+    @keyframes passion {
+        0% {
+            left: -2.5rem;
+            opacity: 0;
+            color: crimson;
+        }
+        100% {
+            left: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    @keyframes creativity {
+        0% {
+            top: -2.5rem;
+            opacity: 0;
+            color: goldenrod;
+        }
+        100% {
+            top: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    @keyframes grit {
+        0% {
+            right: -2.5rem;
+            opacity: 0;
+            color: darkred;
+        }
+        100% {
+            right: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    @keyframes empathy {
+        0% {
+            left: -2.5rem;
+            opacity: 0;
+            color: deepskyblue;
+        }
+        100% {
+            left: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    @keyframes leadership {
+        0% {
+            right: -2.5rem;
+            opacity: 0;
+            color: red;
+        }
+        100% {
+            right: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    @keyframes adaptability {
+        0% {
+            left: -2.5rem;
+            opacity: 0;
+            color: forestgreen;
+        }
+        100% {
+            left: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    @keyframes learnability {
+        0% {
+            bottom: -2.5rem;
+            opacity: 0;
+            color: gold;
+        }
+        100% {
+            bottom: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    .traits-passion, .traits-grit, .traits-empathy, .traits-leadership {
+        font-size: 3rem;
+    }
+    .traits-adaptability, .traits-learnability {
+        font-size: 2.5rem;
+    }
+    .traits-creativity {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    @keyframes passion {
+        0% {
+            left: -2.5rem;
+            opacity: 0;
+            color: crimson;
+        }
+        100% {
+            left: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    @keyframes creativity {
+        0% {
+            top: -2.5rem;
+            opacity: 0;
+            color: goldenrod;
+        }
+        100% {
+            top: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    @keyframes grit {
+        0% {
+            right: -2.5rem;
+            opacity: 0;
+            color: darkred;
+        }
+        100% {
+            right: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    @keyframes empathy {
+        0% {
+            left: -2.5rem;
+            opacity: 0;
+            color: deepskyblue;
+        }
+        100% {
+            left: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    @keyframes leadership {
+        0% {
+            right: -2.5rem;
+            opacity: 0;
+            color: red;
+        }
+        100% {
+            right: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    @keyframes adaptability {
+        0% {
+            left: -2.5rem;
+            opacity: 0;
+            color: forestgreen;
+        }
+        100% {
+            left: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    @keyframes learnability {
+        0% {
+            bottom: -2.5rem;
+            opacity: 0;
+            color: gold;
+        }
+        100% {
+            bottom: 0;
+            opacity: 1;
+            color: var(--base-color)
+        }
+    }
+    .traits-passion, .traits-grit, .traits-empathy, .traits-leadership {
+        font-size: 1.5rem;
+    }
+    .traits-adaptability, .traits-learnability {
+        font-size: 1.2rem;
+    }
+    .traits-creativity {
+        font-size: 1.1rem;
+    }
+}
