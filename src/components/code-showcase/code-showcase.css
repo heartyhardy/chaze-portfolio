@@ -1,13 +1,13 @@
-
-.codeshowcase-main{
+.codeshowcase-main {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(1ft, 2ft));
-    grid-gap: 0;
-    border-top: .2rem solid #40e0d021;
+    grid-template-columns: repeat(auto-fill, minmax(1fr, 2fr));
+    grid-gap: .5rem;
+    padding: 1rem 0 1rem 0;
+    border-top: .2rem solid #f3fcfb34;
 }
 
-.showcase-details{
+.showcase-details {
     grid-column: 1/span 1;
     display: flex;
     flex-direction: column;
@@ -16,21 +16,22 @@
     align-items: center;
 }
 
-.git-icon{
+.git-icon {
     font-size: 3.5rem;
     color: lightskyblue;
     text-shadow: 0rem .1rem .5rem #5295d85d;
     filter: blur(.075rem);
     transition: all .5s linear;
 }
-.git-icon:hover{
+
+.git-icon:hover {
     font-size: 3.5rem;
     color: dodgerblue;
     filter: blur(.02rem);
     transition: all .5s linear;
 }
 
-.showcase-screenshots{
+.showcase-screenshots {
     grid-column: 2/span 2;
     min-width: 60vw;
     display: flex;
@@ -38,14 +39,14 @@
     align-items: center;
 }
 
-.showcase-heading{
+.showcase-heading {
     font-size: 2.5rem;
     font-family: 'Quicksand', sans-serif;
     color: #12032e;
     letter-spacing: .3rem;
 }
 
-.showcase-description{
+.showcase-description {
     max-width: 25vw;
     font-size: 1.1srem;
     font-family: 'Didact Gothic', sans-serif;
@@ -53,10 +54,84 @@
     text-align: justify;
 }
 
-.showcase-technologies{
+.showcase-technologies {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1024px) {
+    .codeshowcase-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 0 0 3rem 0;
+    }
+    .showcase-details {
+        grid-column: 1/span 1;
+        grid-row: 1/ span 1;
+        min-width: 95vw;
+    }
+    .git-icon {
+        font-size: 2.5rem;
+    }
+    .git-icon:hover {
+        font-size: 2.5rem;
+    }
+    .showcase-screenshots {
+        grid-column: 1/span 1;
+        grid-row: 2/ span 1;
+        min-width: 95vw;
+    }
+    .showcase-heading {
+        font-size: 2rem;
+        letter-spacing: .2rem;
+    }
+    .showcase-description {
+        max-width: 80vw;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .showcase-technologies {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .codeshowcase-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 0 0 3rem 0;
+    }
+    .showcase-details {
+        grid-column: 1/span 1;
+        grid-row: 1/ span 1;
+        min-width: 95vw;
+    }
+    .git-icon {
+        font-size: 1.5rem;
+    }
+    .git-icon:hover {
+        font-size: 1.5rem;
+    }
+    .showcase-screenshots {
+        grid-column: 1/span 1;
+        grid-row: 2/ span 1;
+        min-width: 95vw;
+    }
+    .showcase-heading {
+        font-size: 1.5rem;
+        letter-spacing: .2rem;
+    }
+    .showcase-description {
+        max-width: 80vw;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .showcase-technologies {
+        flex-direction: row;
+    }
 }

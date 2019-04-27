@@ -22,7 +22,11 @@
     --code-splash-padding: 5.5rem;
 }
 
-.code-cutscene-main{
+.code-cutscene-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     margin: 5rem 0 5rem 0;
     min-height: 100vh;
@@ -40,4 +44,28 @@
     color: var(--code-splash-color);
     text-shadow: var(--code-splash-shadow-fn);
     user-select: none;
+}
+
+@media only screen and (max-width:1024px) {
+    :root {
+        --code-splash-shadow-fn: 0 .1rem .75rem var(--code-splash-shadow);
+        --code-splash-font-size: 5rem;
+        --code-splash-padding: 0;
+    }
+
+    .code-cutscene-main {
+        margin: 2.5rem 0 2.5rem 0;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    :root {
+        --code-splash-shadow-fn: 0 .1rem .5rem var(--code-splash-shadow);
+        --code-splash-font-size: 2.5rem;
+        --code-splash-padding: 0;
+    }
+
+    .code-cutscene-main {
+        margin: 1rem 0 1rem 0;
+    }
 }

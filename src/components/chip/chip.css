@@ -23,3 +23,25 @@
     text-align: center;
     user-select: none;
 }
+
+@media only screen and (max-width: 1024px){
+    .chip-main{
+        min-width: 4.5rem;
+        max-height: 2rem;
+    }
+    
+    .chip-text{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .chip-main{
+        min-width: 3.5rem;
+        max-height: 1rem;
+    }
+    
+    .chip-text{
+        font-size: .75rem;
+    }
+}

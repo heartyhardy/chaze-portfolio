@@ -22,3 +22,27 @@
     border: .2rem solid #e8f6fa;
     filter: grayscale(.45);
 }
+
+@media only screen and (max-width: 1024px) {
+    .screenshot-main{
+        height: 50vh;
+        border-top: .15rem solid #fcfcfc;
+        box-shadow: 0 .1rem 1rem #40e0d046;
+    }
+    
+    .thumb{
+        border-radius: .25rem .1rem .5rem .1rem;
+    } 
+}
+
+@media only screen and (max-width: 800px) {
+    .screenshot-main{
+        height: 50vh;
+        border-top: .15rem solid #fcfcfc;
+        box-shadow: 0 .1rem .5rem #40e0d046;
+    }
+    
+    .thumb{
+        border-radius: .25rem .1rem .5rem .1rem;
+    } 
+}
