@@ -20,3 +20,23 @@
     text-decoration: none;
     color: snow;
 }
+
+@media only screen and (max-width: 1024px){
+    .media-fab-main{
+        min-width: 100px;
+        min-height: 100px;
+        margin: 0 1.5rem 0 1.5rem;
+        font-size: 2.5rem;
+        box-shadow: 0 .1rem .9rem #40e0d065;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .media-fab-main{
+        min-width: 84px;
+        min-height: 84px;
+        margin: 1rem 0 1rem 0;
+        font-size: 2rem;
+        box-shadow: 0 .1rem .9rem #40e0d065;
+    }
+}

@@ -37,3 +37,47 @@
     text-shadow: 0 .1rem .5rem #20b2ab6e;
     letter-spacing: .35rem;
 }
+
+@media only screen and (max-width: 1024px){
+    @keyframes flyInFromBottom{
+        0% {top: 3rem ; opacity: 0; border-top-width: 0; filter:blur(2px);}
+        100% {top: 0 ; opacity: 1; border-top-width: .5rem; filter: blur(0px);}
+    }
+    
+    .outro-main{
+        margin: 8rem 0 0 0;
+        min-height: 75vh;
+        min-width: 85vw;
+        border-top: .2rem solid #fcfcfc;
+    }
+    
+    .outro-connect_p{
+        font-size: 2rem;
+    }
+    
+}
+
+@media only screen and (max-width: 800px){
+    @keyframes flyInFromBottom{
+        0% {top: 2.5rem ; opacity: 0; border-top-width: 0; filter:blur(2px);}
+        100% {top: 0 ; opacity: 1; border-top-width: .5rem; filter: blur(0px);}
+    }
+    
+    .outro-main{
+        margin: 7rem 0 0 0;
+        min-height: 65vh;
+        min-width: 85vw;
+        border-top: .2rem solid #fcfcfc;
+    }
+
+    .outro-inner{
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+    
+    .outro-connect_p{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    
+}
