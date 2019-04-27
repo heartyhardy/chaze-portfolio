@@ -4,7 +4,8 @@
     --art-splash-shadow-fn: 0 .1rem 1rem var(--art-splash-shadow);
     --art-splash-font: 'Julius Sans One', sans-serif;
     --art-splash-font-size: 8rem;
-    --art-splash-padding: 3.5rem;
+    --art-splash-padding: 2.5rem;
+    --code-splash-border: .15rem solid #fcfcfc;
 }
 
 .art-cutscene-main{
@@ -25,9 +26,11 @@
 .art-cutscene-artwork_p {
     font-family: var(--art-splash-font);
     font-size: var(--art-splash-font-size);
-    padding-left: var(--art-splash-padding);
     color: var(--art-splash-color);
     text-shadow: var(--art-splash-shadow-fn);
+    border-bottom: var(--code-splash-border);
+    padding-bottom: var(--code-splash-padding);
+    border-radius: 1rem;
     user-select: none;
 }
 
@@ -36,7 +39,8 @@
     :root {
         --art-splash-shadow-fn: 0 .1rem .75rem var(--art-splash-shadow);
         --art-splash-font-size: 5rem;
-        --art-splash-padding: 0;
+        --art-splash-padding: 2rem;
+        --art-splash-shadow-fn: 0 .1rem .5rem var(--art-splash-shadow);
     }
 
     .art-cutscene-main {
@@ -48,7 +52,8 @@
     :root {
         --art-splash-shadow-fn: 0 .1rem .5rem var(--art-splash-shadow);
         --art-splash-font-size: 2.5rem;
-        --art-splash-padding: 0;
+        --art-splash-padding: 1rem;
+        --art-splash-shadow-fn: 0 .1rem .3rem var(--art-splash-shadow);
     }
 
     .art-cutscene-main {

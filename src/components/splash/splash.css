@@ -233,7 +233,7 @@
         --splash-shadow: #40e0d08c;
         --splash-shadow-fn: 0 .1rem .15rem var(--splash-shadow);
         --splash-font: 'Poiret One', cursive;
-        --splash-font-size: 2rem;
+        --splash-font-size: 3rem;
         --splash-padding: 0;
     }
 
@@ -245,13 +245,13 @@
     }
 
     .splash-dreams_p {
-        margin-top: -3rem;
+        margin-top: -4rem;
     }
 
     .full-name_p {
         font-size: .6rem;
         letter-spacing: .15rem;
-        margin-top: -1.75rem;
+        margin-top: -2.75rem;
     }
 
     .scroll-bait {

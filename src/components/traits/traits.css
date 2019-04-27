@@ -317,7 +317,7 @@
     }
     @keyframes empathy {
         0% {
-            left: -2.5rem;
+            left: -2rem;
             opacity: 0;
             color: deepskyblue;
         }
@@ -341,7 +341,7 @@
     }
     @keyframes adaptability {
         0% {
-            left: -2.5rem;
+            left: -2rem;
             opacity: 0;
             color: forestgreen;
         }

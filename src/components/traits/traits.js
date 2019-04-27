@@ -97,7 +97,6 @@ const Traits = props => {
                 LEARNABILITY
              </p>
              
-            <p style={{ position: 'fixed', top: 0, left: '50px' }}>{props.scrollPos}</p>
         </Aux>
     )
 }

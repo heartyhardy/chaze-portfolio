@@ -19,7 +19,8 @@
     --code-splash-shadow-fn: 0 .1rem 1rem var(--code-splash-shadow);
     --code-splash-font: 'Julius Sans One', sans-serif;
     --code-splash-font-size: 8rem;
-    --code-splash-padding: 5.5rem;
+    --code-splash-padding: 2.5rem;
+    --code-splash-border: .15rem solid #fcfcfc;
 }
 
 .code-cutscene-main {
@@ -40,9 +41,11 @@
 .code-cutscene-projects_p {
     font-family: var(--code-splash-font);
     font-size: var(--code-splash-font-size);
-    padding-left: var(--code-splash-padding);
     color: var(--code-splash-color);
     text-shadow: var(--code-splash-shadow-fn);
+    border-bottom: var(--code-splash-border);
+    padding-bottom: var(--code-splash-padding);
+    border-radius: 1rem;
     user-select: none;
 }
 
@@ -50,7 +53,7 @@
     :root {
         --code-splash-shadow-fn: 0 .1rem .75rem var(--code-splash-shadow);
         --code-splash-font-size: 5rem;
-        --code-splash-padding: 0;
+        --code-splash-padding: 2rem;
     }
 
     .code-cutscene-main {
@@ -62,7 +65,7 @@
     :root {
         --code-splash-shadow-fn: 0 .1rem .5rem var(--code-splash-shadow);
         --code-splash-font-size: 2.5rem;
-        --code-splash-padding: 0;
+        --code-splash-padding: 1rem;
     }
 
     .code-cutscene-main {
