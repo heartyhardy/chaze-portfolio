@@ -1,63 +1,12 @@
-.artshowcase-main{
+.artshowcase-main {
     min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(1ft, 1ft));
     grid-template-columns: repeat(auto-fill, minmax(1ft, 1ft));
     grid-gap: 0.5rem;
 }
-/* 
-.quoteflags{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 256px;
-    width: 256px;
-    background-image: linear-gradient(to bottom, lavender, papayawhip);
-    border: .75rem solid ivory;
-    border-radius: .25rem;
-}
 
-.quote0{
-    grid-column: 2/span 1;
-    grid-row: 2/span 1;
-}
-
-.quote1{
-    grid-column: 4/span 1;
-    grid-row: 3/span 1;
-}
-
-.quote2{
-    grid-column: 1/span 1;
-    grid-row: 4/span 2;
-    width: 256px;
-    height: calc(512px + 2rem);
-}
-
-.quote3{
-    grid-column: 3/span 2;
-    grid-row: 6/span 2;
-    width: calc(512px + 2rem);
-    height: calc(512px + 2rem);
-}
-
-.quote4{
-    grid-column: 4/span 1;
-    grid-row: 8/span 1;
-}
-
-.quote5{
-    grid-column: 1/span 1;
-    grid-row: 9/span 1;
-}
-
-.quote6{
-    grid-column: 4/span 1;
-    grid-row: 10/span 1;
-} */
-
-.cellflags{
+.cellflags {
     height: 256px;
     width: 256px;
     background-image: url("");
@@ -69,96 +18,104 @@
 }
 
 /* The path */
-.cell0{
+
+.cell0 {
     grid-column: 1/ span 1;
     grid-row: 1/ span 1;
 }
 
 /* An ocean between us */
-.cell1-1{
+
+.cell1-1 {
     grid-column: 2/ span 1;
     grid-row: 1/ span 1;
 }
 
-.cell1-2{
+.cell1-2 {
     grid-column: 3/ span 1;
     grid-row: 1/ span 1;
 }
 
-.cell1-3{
+.cell1-3 {
     grid-column: 4/ span 1;
     grid-row: 1/ span 1;
 }
 
 /* The storm */
-.cell2{
+
+.cell2 {
     grid-column: 1/ span 1;
     grid-row: 2/ span 1;
 }
 
 /* Christmas pleas */
-.cell3-1{
+
+.cell3-1 {
     grid-column: 3/ span 1;
     grid-row: 2/ span 1;
     background-size: 100%;
 }
 
-.cell3-2{
+.cell3-2 {
     grid-column: 4/ span 1;
     grid-row: 2/ span 1;
     background-size: 100%;
 }
 
 /* Live free, die well */
-.cell4-1{
+
+.cell4-1 {
     grid-column: 1/ span 1;
     grid-row: 3/ span 1;
 }
 
-.cell4-2{
+.cell4-2 {
     grid-column: 2/ span 1;
     grid-row: 3/ span 1;
 }
 
-.cell4-3{
+.cell4-3 {
     grid-column: 3/ span 1;
     grid-row: 3/ span 1;
 }
 
 /* Heart of courge */
-.cell5-1{
+
+.cell5-1 {
     grid-column: 2/ span 1;
     grid-row: 4/ span 1;
 }
 
-.cell5-2{
+.cell5-2 {
     grid-column: 3/ span 1;
     grid-row: 4/ span 1;
 }
 
-.cell5-3{
+.cell5-3 {
     grid-column: 4/ span 1;
     grid-row: 4/ span 1;
 }
 
 /* Champaign in my lungs */
-.cell6-1{
+
+.cell6-1 {
     grid-column: 2/ span 1;
     grid-row: 5/ span 1;
 }
 
-.cell6-2{
+.cell6-2 {
     grid-column: 3/ span 1;
     grid-row: 5/ span 1;
 }
 
-.cell6-3{
+.cell6-3 {
     grid-column: 4/ span 1;
     grid-row: 5/ span 1;
 }
 
 /* Black forest */
-.cell7{
+
+.cell7 {
     grid-column: 1/span 2;
     grid-row: 6/ span 2;
     width: calc(512px + 2rem);
@@ -168,57 +125,59 @@
 }
 
 /* Mystic lands */
-.cell8-1{
+
+.cell8-1 {
     grid-column: 1/span 1;
     grid-row: 8/ span 1;
 }
 
-.cell8-2{
+.cell8-2 {
     grid-column: 2/span 1;
     grid-row: 8/ span 1;
 }
 
-.cell8-3{
+.cell8-3 {
     grid-column: 3/span 1;
     grid-row: 8/ span 1;
 }
 
 /* A Charmed life */
-.cell9-1{
+
+.cell9-1 {
     grid-column: 2/span 1;
     grid-row: 9/ span 1;
 }
 
-.cell9-2{
+.cell9-2 {
     grid-column: 3/span 1;
     grid-row: 9/ span 1;
 }
 
-.cell9-3{
+.cell9-3 {
     grid-column: 4/span 1;
     grid-row: 9/ span 1;
 }
 
 /* Chasing horizons */
 
-.cell10-1{
+.cell10-1 {
     grid-column: 1/ span 1;
     grid-row: 10/span 1;
 }
 
-.cell10-2{
+.cell10-2 {
     grid-column: 2/ span 1;
     grid-row: 10/span 1;
 }
 
-.cell10-3{
+.cell10-3 {
     grid-column: 3/ span 1;
     grid-row: 10/span 1;
 }
 
 /* Lord dominator */
 
-.cell11{
+.cell11 {
     grid-column: 1/span 1;
     grid-row: 4/span 2;
     width: calc(256px);
@@ -229,7 +188,7 @@
 
 /* Fireflies */
 
-.cell12{
+.cell12 {
     grid-column: 3/span 2;
     grid-row: 6/ span 2;
     width: calc(512px + 2rem);
@@ -240,14 +199,115 @@
 
 /* Trees */
 
-.cell13{
+.cell13 {
     grid-column: 4/span 1;
     grid-row: 3/ span 1;
 }
 
 /* Planet */
 
-.cell14{
+.cell14 {
     grid-column: 2/span 1;
     grid-row: 2/ span 1;
+}
+
+@media only screen and (max-width: 1200px) {
+    .cellflags {
+        height: 200px;
+        width: 200px;
+        box-shadow: 0 .1rem 1rem #03002546;
+    }
+    /* Lord dominator */
+    .cell11 {
+        width: calc(200px);
+        height: calc(400px + 2rem);
+    }
+    /* Fireflies */
+    .cell12 {
+        width: calc(400px + 2rem);
+        height: calc(400px + 2rem);
+    }
+    /* Black forest */
+    .cell7 {
+        width: calc(400px + 2rem);
+        height: calc(400px + 2rem);
+        background-size: 601px 822.8px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .cellflags {
+        height: 184px;
+        width: 184px;
+        box-shadow: 0 .1rem .8rem #03002546;
+    }
+    /* Lord dominator */
+    .cell11 {
+        width: calc(184px);
+        height: calc(368px + 2rem);
+    }
+    /* Fireflies */
+    .cell12 {
+        width: calc(368px + 2rem);
+        height: calc(368px + 2rem);
+    }
+    /* Black forest */
+    .cell7 {
+        width: calc(368px + 2rem);
+        height: calc(368px + 2rem);
+        background-size: 601px 822.8px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .cellflags {
+        height: 148px;
+        width: 148px;
+        box-shadow: 0 .1rem .7rem #03002546;
+    }
+    /* Lord dominator */
+    .cell11 {
+        width: calc(148px);
+        height: calc(296px + 2rem);
+    }
+    /* Fireflies */
+    .cell12 {
+        width: calc(296px + 2rem);
+        height: calc(296px + 2rem);
+    }
+    /* Black forest */
+    .cell7 {
+        width: calc(296px + 2rem);
+        height: calc(296px + 2rem);
+        background-size: 601px 822.8px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .artshowcase-main {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cellflags {
+        margin: 2rem 1rem 2rem 1rem;
+        height: 60vw;
+        width: 60vw;
+        box-shadow: 0 .1rem .5rem #03002546;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+    /* Lord dominator */
+    .cell11 {
+        height: 90vh;
+        background-size: contain;
+    }
+    /* Black forest */
+    .cell7 {
+        height: 90vh;
+        background-size: cover;
+        background-position: center;
+    }
 }
