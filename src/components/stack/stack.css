@@ -42,3 +42,53 @@
     max-width: calc( 256px - 2rem);
     user-select: none;
 }
+
+@media only screen and (max-width: 1024px) {
+    .stack-main{
+        min-width: 164px;
+        min-height: 400px;
+        max-height: 512px;
+        padding: .85rem;
+        margin: 1.2rem;
+        border-top: .2rem solid #fcfcfc;
+        box-shadow: 0 .1rem .75rem #00597c11;
+    }
+
+    .stack-icon{
+        font-size: 2rem;
+        padding: 1rem 0 0 0;
+    }
+
+    .stack-heading{
+        font-size: 2rem;
+    }
+    
+    .stack-description{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .stack-main{
+        min-width: 128px;
+        min-height: 400px;
+        max-height: 512px;
+        padding: .65rem;
+        margin: 1rem;
+        border-top: .15rem solid #fcfcfc;
+        box-shadow: 0 .1rem .5rem #00597c11;
+    }
+
+    .stack-icon{
+        font-size: 1.5rem;
+        padding: .5rem 0 0 0;
+    }
+
+    .stack-heading{
+        font-size: 1.75rem;
+    }
+    
+    .stack-description{
+        font-size: 1rem;
+    }
+}

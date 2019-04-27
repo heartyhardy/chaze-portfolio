@@ -190,3 +190,75 @@
     text-align: center;
     color: paleturquoise;
 }
+
+@media only screen and (max-width: 1024px) {
+    :root {
+        --splash-color: #0a061a;
+        --splash-shadow: #40e0d08c;
+        --splash-shadow-fn: 0 .1rem .25rem var(--splash-shadow);
+        --splash-font: 'Poiret One', cursive;
+        --splash-font-size: 5rem;
+        --splash-padding: 0;
+    }
+
+    .splash-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+
+    .splash-dreams_p {
+        margin-top: -7rem;
+    }
+
+    .full-name_p {
+        font-size: 1.5rem;
+        letter-spacing: .4rem;
+        margin-top: -5rem;
+    }
+
+    .scroll-bait {
+        margin-top: 2.5rem;
+    }
+    
+    .scroll-bait_p {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    :root {
+        --splash-color: #0a061a;
+        --splash-shadow: #40e0d08c;
+        --splash-shadow-fn: 0 .1rem .15rem var(--splash-shadow);
+        --splash-font: 'Poiret One', cursive;
+        --splash-font-size: 2rem;
+        --splash-padding: 0;
+    }
+
+    .splash-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+
+    .splash-dreams_p {
+        margin-top: -3rem;
+    }
+
+    .full-name_p {
+        font-size: .6rem;
+        letter-spacing: .15rem;
+        margin-top: -1.75rem;
+    }
+
+    .scroll-bait {
+        margin-top: 2rem;
+    }
+    
+    .scroll-bait_p {
+        font-size: 1.5rem;
+    }
+}
