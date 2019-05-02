@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "60ee8fe354fb4b72c63b",
-    "url": "/chaze-portfolio/static/css/main.0ea8d5f7.chunk.css"
+    "revision": "12934a25d930615b45bf",
+    "url": "/chaze-portfolio/static/css/main.3c43fa52.chunk.css"
   },
   {
-    "revision": "60ee8fe354fb4b72c63b",
-    "url": "/chaze-portfolio/static/js/main.13c12a11.chunk.js"
+    "revision": "12934a25d930615b45bf",
+    "url": "/chaze-portfolio/static/js/main.76a19164.chunk.js"
   },
   {
     "revision": "83bb7c7a753ec990675d",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/chaze-portfolio/static/js/2.44908718.chunk.js"
   },
   {
-    "revision": "b9a0b47999fae1a89a6ef64b8faeae2c",
+    "revision": "075774b72c590065bd4d662461ecef78",
     "url": "/chaze-portfolio/index.html"
   }
 ];
