@@ -28,7 +28,7 @@ const code_showcase_data = [
         screenshots: [
             {
                 caption: "Cara - Preview",
-                url: 'img/code/caraprev1.gif'
+                url: 'img/code/caraprev.gif'
             }
         ]
     },
