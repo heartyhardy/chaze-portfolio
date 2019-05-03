@@ -4,7 +4,7 @@ const code_showcase_data = [
         id: "gameofur",
         heading: "Game of Ur",
         description: "Game of Ur is a board game based on gameboards found during the excavations carried out by an archaeologist called, Leonard Woolley, at the ancient Sumerian city of Ur,inside the royal tombs(The royal game of Ur, 1928). I've implemented it as a top-down, isometric, turn-based strategy game, exclusively for PC, which assigns players to play vs a computer opponent.",
-        git:"",
+        git:"https://github.com/heartyhardy/Game-of-Ur",
         technologies: [
             "C#", "Photoshop"
         ],
@@ -20,7 +20,7 @@ const code_showcase_data = [
         id: "cara",
         heading: "CARA",
         description: "Cara is a simple face detection application made in React and clarifai api.",
-        git:"",
+        git:"https://github.com/heartyhardy/Cara-FrontEnd",
         technologies: [
             "Javascript", "React", "CSS"
         ],
@@ -35,8 +35,8 @@ const code_showcase_data = [
     {
         id: "floatingemojis",
         heading: "Flaoting Emojis",
-        description: "Floating emojis description",
-        git:"",
+        description: "Floating emojis lists a bunch of emojis filtered by the type. Click to copy!",
+        git:"https://github.com/heartyhardy/floating-emojis",
         technologies: [
             "Javascript", "React", "CSS"
         ],
