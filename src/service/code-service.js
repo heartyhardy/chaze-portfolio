@@ -34,7 +34,7 @@ const code_showcase_data = [
     },
     {
         id: "floatingemojis",
-        heading: "Flaoting Emojis",
+        heading: "Floating Emojis",
         description: "Floating emojis lists a bunch of emojis filtered by the type. Click to copy!",
         git:"https://github.com/heartyhardy/floating-emojis",
         technologies: [
