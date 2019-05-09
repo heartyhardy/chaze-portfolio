@@ -47,6 +47,22 @@ const code_showcase_data = [
                 url: 'img/code/feprev.gif'
             }
         ]
+    },
+    {
+        id: "swars",
+        heading: "Space wars",
+        description: "Space wars is a simple 2d space shooter. Enemies are spawned on random paths and game continues unitl player dies. Shoot em up!",
+        git:"https://github.com/heartyhardy/space-wars-experimental",
+        technologies: [
+            "C#", "Unity"
+        ],
+        basepath: "C:\\",
+        screenshots: [
+            {
+                caption: "Space wars",
+                url: 'img/code/swprev.gif'
+            }
+        ]
     }
 ]
 

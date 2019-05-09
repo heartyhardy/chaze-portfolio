@@ -15,7 +15,7 @@
 .thumb{
     width:95%;
     height: 95%;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: .5rem .2rem 1rem .2rem;
