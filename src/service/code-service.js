@@ -63,6 +63,22 @@ const code_showcase_data = [
                 url: 'img/code/swprev.gif'
             }
         ]
+    },
+    {
+        id: "catchycolors",
+        heading: "Catchy colors",
+        description: "Catchy colors lets you generate an HSL based color scheme quickly. All you have to do is define a base color, specify the number of swatches to be generated and click Go!. This project is currently under development and I'm planning to make it a fully fledged color scheme utility in the future.",
+        git:"https://github.com/heartyhardy/catchy-colors",
+        technologies: [
+            "Javascript", "React", "CSS"
+        ],
+        basepath: "C:\\",
+        screenshots: [
+            {
+                caption: "Catchy colors",
+                url: 'img/code/catchyprev.gif'
+            }
+        ]
     }
 ]
 
